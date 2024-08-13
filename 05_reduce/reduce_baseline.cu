@@ -1,5 +1,7 @@
 /**
  * sum_reduce
+ * baseline: 串行处理
+ * latency: 1027.339844 ms
  */
 #include <cuda.h>
 #include <iostream>
@@ -74,10 +76,10 @@ int main() {
     bool is_right = checkResult(out, groudtruth, gridSize);
     
     if(is_right) {
-        printf("the ans is right\n");
+        printf("the ans is right!\n");
     }
     else {
-        printf("the ans is wrong\n");
+        printf("the ans is wrong!\n");
         for(int i = 0; i < gridSize;i++){
             printf("res per block : %1f ",out[i]);
         }
