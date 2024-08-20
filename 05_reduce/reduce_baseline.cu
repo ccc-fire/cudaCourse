@@ -1,5 +1,5 @@
 /**
- * sum_reduce
+ * reduce_sum
  * baseline: 串行处理
  * latency: 1027.339844 ms
  */

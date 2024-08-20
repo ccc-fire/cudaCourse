@@ -3,9 +3,9 @@
 #include "cuda_runtime.h"
 
 /**
- * 
+ * reduce_sum:
  * v1: 用位运算替换除余操作
- * latency: ms
+ * latency: 0.573472 ms
  */
 
 // 错误检查宏

@@ -3,7 +3,7 @@
 #include "cuda_runtime.h"
 
 /**
- * sum_reduce: 
+ * reduce_sum: 
  * v0: shared memory -- allcated 100000 blocks, data counts are 25600000
  * latency: 0.992672 ms
  */
