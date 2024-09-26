@@ -41,6 +41,13 @@ the ans is right
 reduce_v2 latency = 0.234016 ms
 ```
 
+**v4**
+
+```bash
+allcated 100000 blocks, data counts are 25600000
+the ans is right
+reduce_v2 latency = 0.179808 ms
+```
 
 
 

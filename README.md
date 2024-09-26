@@ -20,8 +20,11 @@ Device 0: "NVIDIA GeForce RTX 3080"
   Max dimension size of a block size (x,y,z): (1024, 1024, 64)
   Max dimension size of a grid size  (x,y,z): (2147483647, 65535, 65535)
 ```
+所有的代码片段都是在该GPU上进行测试：
+采用NVIDIA Ampere架构，拥有8704个CUDA核心，核心加速频率1.71GHz，搭载10GB GDDR6X显存，整卡功耗为320W。
 
-这些参数是关于CUDA（Compute Unified Device Architecture）编程环境中，NVIDIA GPU（显卡）的硬件规格和能力的详细信息。下面逐一解释这些参数的意义（感谢GPT）：
+这些参数是关于CUDA（Compute Unified Device Architecture）编程环境中，NVIDIA GPU（显卡）的硬件规格和能力的详细信息。
+下面逐一解释这些参数的意义（感谢GPT）：
 
 1. **Detected 1 CUDA Capable device(s)**  
    表示系统检测到了一块支持CUDA计算的设备（即GPU）。
